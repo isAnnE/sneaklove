@@ -4,13 +4,14 @@ const router = express.Router();
 return console.log(`
 -----------------------------
 -----------------------------
-node says : wax on / wax off !
+node says : waxing hurts !
 -----------------------------
 -----------------------------`
 );
 
-router.get("/", (req, res) => {
-  res.send("foo");
+// Anne : tentative de configuration de la page home ou "/" ou index
+router.get("/index", (req, res) => {
+  res.send("home");
 });
 
 router.get("/sneakers/:cat", (req, res) => {

@@ -1,31 +1,29 @@
 {
-  "name": "sneak-love",
-  "version": "2.0.0",
-  "description": "A tech challenge designed to improve debugging skills and practice CRUD with express and mongo",
+  "name": "sneaklove",
+  "version": "1.0.0",
+  "description": "Good news : Your team has been selected by our final client !",
   "main": "app.js",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "cloudinary": "^1.14.0",
-    "connect-flash": "^0.1.1",
-    "connect-mongo": "^3.0.0",
-    "cookie-parser": "^1.4.4",
-    "debug": "^4.1.1",
+    "cloudinary": "^1.21.0",
     "express": "^4.17.1",
-    "express-session": "^1.16.2",
     "hbs": "^4.1.1",
-    "http-errors": "^1.7.3",
-    "moment": "^2.26.0",
-    "mongoose": ">=5.7.5",
-    "morgan": "^1.10.0",
-    "multer-storage-cloudinary": "^2.2.1"
+    "mongoose": "^5.9.16"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www",
-    "server": "nodemon ./bin/www -e js,hbs"
+    "dev": "nodemon ./bin/www -e .hbs,.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isAnnE/sneaklove.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isAnnE/sneaklove/issues"
+  },
+  "homepage": "https://github.com/isAnnE/sneaklove#readme"
 }
